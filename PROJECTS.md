@@ -138,7 +138,7 @@ Raw OpenWrt backup archives are intentionally **not public** because recovered b
 **Status:** EXPERIMENTAL / BETA  
 **Location:** `BlazingSystems-Experiments/web/blazeapk/`
 
-Includes Alpha 0.1 and canonical Beta 0.5 browser/APK compatibility experiments. Not presented as a general Android runtime replacement.
+Canonical active build is Beta 0.5. Alpha 0.1–0.3 milestones are preserved in Archives. Not presented as a general Android runtime replacement.
 
 ### BlazeJ2ME
 
@@ -185,6 +185,12 @@ Selected V2/V3/V4 milestones are preserved under:
 Embedded Audio V2, GPIO14 Final, GPIO14 Bootfix and audit documentation are preserved under:
 
 `BlazingSystems-Archives/embedded/blaze-pisonet-timer-history/`
+
+### BlazeAPK / BlazeJ2ME Alpha History
+
+Superseded browser-runtime milestones are preserved under:
+
+`BlazingSystems-Archives/web-runtime-history/`
 
 ### Friv / Arcade History
 
