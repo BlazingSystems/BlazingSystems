@@ -28,7 +28,7 @@ Status is based on the latest **actual recovered artifact and verified GitHub st
 **Location:** `BlazingSystems-Projects/marine/vessel-logbook/`  
 **Canonical recovered build:** V10.4 Audio + Haptic Final
 
-The V10.4 branch supersedes the earlier V8/V9/V10/V10.1–V10.3 branches as the public canonical build. Older meaningful milestones are preserved in Archives.
+The V10.4 branch supersedes the earlier V8/V9/V10/V10.1–V10.3 branches as the public canonical build. V8, V9 and V10 are preserved as sanitized historical milestones; the incomplete V10.3 archive placeholder was deliberately removed.
 
 ### DraftSight Trainer
 
@@ -170,7 +170,7 @@ Recovered Android + ESP32 prototype with subsequent security/integration patches
 
 ### Vessel LogBook History
 
-Selected V8, V9, V10 and V10.3 milestones are preserved under:
+Selected V8, V9 and V10 milestones are preserved under:
 
 `BlazingSystems-Archives/marine/vessel-logbook-history/`
 
