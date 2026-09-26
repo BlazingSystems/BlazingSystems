@@ -69,6 +69,10 @@ A project should survive actual use.
 
 **Homelab Infrastructure** — getting useful server and networking roles out of inexpensive, low-power hardware.
 
+## 🗂️ Project Recovery Index
+
+See the audited project status and migration ledger in [PROJECTS.md](PROJECTS.md).
+
 ## 📦 Project Philosophy
 
 > **Use what you have. Understand how it works. Build what you need.**
