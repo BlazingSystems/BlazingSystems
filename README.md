@@ -35,7 +35,7 @@ The portfolio emphasizes projects that are understandable, maintainable, and rea
 - **[Experiments](https://github.com/BlazingSystems/BlazingSystems-Experiments)** — feasibility studies and compatibility prototypes
 - **[Archives](https://github.com/BlazingSystems/BlazingSystems-Archives)** — sanitized engineering history and resolution notes
 
-A detailed project catalog is available in **[PROJECTS.md](PROJECTS.md)**.
+A detailed project catalog is available in **[PROJECTS.md](PROJECTS.md)**. Validation boundaries and remaining test requirements are tracked in **[PORTFOLIO_VALIDATION.md](PORTFOLIO_VALIDATION.md)**.
 
 ## Engineering Approach
 
