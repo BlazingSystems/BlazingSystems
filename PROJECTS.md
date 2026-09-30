@@ -96,7 +96,9 @@ Sanitized networking study covering VLAN and management design. Raw device backu
 ## Experiments
 
 ### BlazeAPK
-Browser-based APK/DEX parsing and Android-API compatibility research. It is not presented as a replacement for Android Runtime/ART.
+**Current public build:** Beta 0.6
+
+Browser-based APK/DEX parsing and Android-API compatibility research. The runnable public artifact is Beta 0.6; recovered Beta 0.7 material is design/implementation planning only and is not represented as a completed release. It is not presented as a replacement for Android Runtime/ART.
 
 ### BlazeJ2ME
 Single-file Java ME/JAR/JAD runtime experiment for compatibility research.
