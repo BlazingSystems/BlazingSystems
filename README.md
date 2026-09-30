@@ -1,106 +1,76 @@
 <div align="center">
 
-# ⚡ BlazingSystems
+# BlazingSystems
 
 ### Loumer Manreal
-**Technician • Maker • Embedded & Network Systems Builder**
+**Computer Technician · Embedded Systems Builder · Network & Offline-Tool Developer**
 
-*Practical technology built from curiosity — and made to survive actual use.*
+Practical engineering projects focused on embedded systems, local-first software, networking, repairability, and efficient use of modest hardware.
 
 </div>
 
 ---
 
-## 👋 About Me
+## Profile
 
-I'm **Loumer Manreal**, the person behind **BlazingSystems**.
+I build and study systems that solve practical problems with straightforward hardware and software. My work commonly combines microcontrollers, local web interfaces, networking, offline browser applications, and repurposed computers.
 
-I'm a hands-on computer technician and technology builder from the Philippines. I like turning ordinary hardware into practical systems: old PCs into servers, routers into flexible network infrastructure, ESP8266/ESP32 boards into useful controllers, and browsers into complete offline tools.
+The portfolio emphasizes projects that are understandable, maintainable, and realistic about their validation limits.
 
-Most of my projects start with a real problem rather than a technology looking for a purpose.
+## Portfolio Areas
 
-## 🔧 What I Build
+| Area | Focus |
+|---|---|
+| Embedded systems | ESP8266 / ESP32 controllers, sensors, relays, local device interfaces |
+| Networking | OpenWrt, VLANs, captive-portal studies, local network infrastructure |
+| Offline web tools | Single-file and local-first browser applications |
+| Android / desktop utilities | Lightweight tools designed for practical use on modest hardware |
+| Homelab systems | Repurposed PCs, local services, storage, routing and self-hosting |
+| Training & simulation | Browser-based technical exercises and lightweight games |
 
-- 📡 **Networking & OpenWrt** — VLAN deployments, access points, captive portals and router experiments
-- 🪙 **PisoWiFi / Pisonet systems** — timers, coin-slot systems, hotspot infrastructure and offline management
-- ⚙️ **ESP8266 / ESP32 projects** — controllers, sensors, relays, displays, web interfaces and automation
-- 🖥️ **Offline web applications** — portable tools designed to work with minimal or zero cloud dependencies
-- 🏠 **Homelab & self-hosting** — repurposing low-power and older computers into useful infrastructure
-- 🔬 **Hardware & firmware experiments** — diagnostics, repair, firmware work and reverse engineering
-- 🎮 **Games & simulators** — browser-based games, training tools and offline experiments
+## Repository Structure
 
-## 🧠 How I Work
+- **[Projects](https://github.com/BlazingSystems/BlazingSystems-Projects)** — portfolio-ready demonstrations and usable builds
+- **[Labs](https://github.com/BlazingSystems/BlazingSystems-Labs)** — active development requiring further build, hardware or platform validation
+- **[Experiments](https://github.com/BlazingSystems/BlazingSystems-Experiments)** — feasibility studies and compatibility prototypes
+- **[Archives](https://github.com/BlazingSystems/BlazingSystems-Archives)** — sanitized engineering history and resolution notes
+
+A detailed project catalog is available in **[PROJECTS.md](PROJECTS.md)**.
+
+## Engineering Approach
 
 ```text
-Idea
-  ↓
-Prototype
-  ↓
-Make it work
-  ↓
-Find what breaks
-  ↓
-Audit + reconcile
-  ↓
-Optimize
-  ↓
-Deploy
-  ↓
-Improve it again
+Define the problem
+      ↓
+Build the smallest useful prototype
+      ↓
+Test the failure cases
+      ↓
+Measure and simplify
+      ↓
+Document limitations
+      ↓
+Validate on the target environment
+      ↓
+Release or keep in Labs
 ```
 
-**I don't consider “it compiled” the same thing as “it's finished.”**
+A successful compile is only one validation step. Hardware behavior, persistence, failure recovery, network conditions, and user workflow matter just as much.
 
-A project should survive actual use.
+## Technical Stack
 
-## 🧰 Toolbox
+`ESP8266` · `ESP32` · `Arduino/C++` · `OpenWrt` · `Linux` · `HTML` · `CSS` · `JavaScript` · `Python` · `Android` · `Networking` · `Wi-Fi` · `VLAN` · `Embedded Web Interfaces`
 
-`ESP8266` · `ESP32` · `Arduino/C++` · `OpenWrt` · `Linux` · `VLAN` · `HTML` · `CSS` · `JavaScript` · `Networking` · `Wi-Fi` · `Embedded Web Servers` · `PC Hardware` · `Electronics`
+## Public Portfolio Policy
 
-## 🚧 Current Areas of Exploration
+Public repositories use generic interfaces and synthetic sample data. They intentionally exclude client records, employer records, production credentials, private router backups, personal financial data, private keys, and other confidential operational material.
 
-**OpenWrtFi** — exploring an open, practical PisoWiFi platform built around OpenWrt.
-
-**Centralized Pisonet Control** — ESP-based coin-slot and timer architecture for multiple units with offline-first operation.
-
-**Embedded Interfaces** — compact web interfaces, displays and controllers for ESP8266/ESP32 systems.
-
-**Offline Productivity Tools** — specialized utilities that remain usable without internet access.
-
-**Homelab Infrastructure** — getting useful server and networking roles out of inexpensive, low-power hardware.
-
-## 🗂️ Project Recovery Index
-
-See the audited project status and migration ledger in [PROJECTS.md](PROJECTS.md).
-
-## 📦 Project Philosophy
-
-> **Use what you have. Understand how it works. Build what you need.**
-
-An old thin client can become a server.  
-A router can become part of a VLAN deployment.  
-A tiny microcontroller can replace a surprisingly complicated controller.  
-A browser can become the interface for an entire offline application.
-
-That's the kind of engineering I enjoy.
-
-## 🗂️ Project Status
-
-**✅ Projects** — successful and usable builds  
-**🧪 Labs** — active development  
-**💡 Experiments** — prototypes and technical exploration  
-**📦 Archive** — superseded, incomplete or unsuccessful attempts worth preserving
-
-Failed attempts aren't automatically erased. They often contain the lesson that makes the next version work.
+Hardware, networking, and calculation projects are clearly labeled when further real-world validation is still required.
 
 ---
 
 <div align="center">
 
-## ⚡ BLAZING SYSTEMS
-
-**Build • Test • Audit • Improve**
-
-*Use it. Break it. Understand it. Make it better.*
+**Build · Test · Validate · Document · Improve**
 
 </div>
