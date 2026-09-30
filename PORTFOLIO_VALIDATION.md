@@ -25,10 +25,12 @@ Public repositories contain sanitized demonstrations, source-ready projects, exp
 | MachDownload | Lab / working alpha | Wider Windows, CDN, proxy, authentication, and release-build testing |
 | Local AI Studio | Lab / engine prototype | Model-dependent generation and performance testing with user-supplied model weights |
 | OpenWrt VLAN Deployment Study | Lab / documentation | Target-router deployment and rollback validation using sanitized configuration data |
+| ESPHole | Lab / source-ready | Public credential hardening complete; ESP8266 compile, DNS/NAPT, recovery and multi-client hardware validation remain |
+| BlazeTube ESP8266 | Lab / source-ready | No bundled API key; public credential hardening complete; ESP8266 compile, NAPT, API and multi-client validation remain |
 
 ## Experiments
 
-BlazeAPK, BlazeJ2ME, TokenLauncher, and the ESP8266 controller studies remain experimental. They are feasibility or compatibility work and are not represented as production-ready software.
+BlazeAPK Beta 0.6, BlazeJ2ME v1.6, TokenLauncher, and the ESP8266 controller studies remain experimental. BlazeAPK 0.6 and BlazeJ2ME v1.6 pass JavaScript parser validation; broader runtime compatibility testing remains. None is represented as production-ready software.
 
 ## Publication Boundary
 
