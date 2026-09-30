@@ -1,257 +1,142 @@
-# BlazingSystems Project Index
+# BlazingSystems Project Catalog
 
-This is the audited public recovery and migration ledger for BlazingSystems projects.
+This catalog summarizes the public BlazingSystems portfolio and its validation status.
 
-Status is based on the latest **actual recovered artifact and verified GitHub state**. A file is not treated as production-ready merely because its filename contains words such as `final`.
+## Repository Model
 
-## Repository Map
+| Repository | Purpose |
+|---|---|
+| [BlazingSystems-Projects](https://github.com/BlazingSystems/BlazingSystems-Projects) | Portfolio-ready demonstrations and usable builds |
+| [BlazingSystems-Labs](https://github.com/BlazingSystems/BlazingSystems-Labs) | Active development requiring additional validation |
+| [BlazingSystems-Experiments](https://github.com/BlazingSystems/BlazingSystems-Experiments) | Feasibility studies, compatibility work and prototypes |
+| [BlazingSystems-Archives](https://github.com/BlazingSystems/BlazingSystems-Archives) | Sanitized historical notes, superseded concepts and recovery plans |
 
-- **Projects** — verified usable/canonical builds  
-  https://github.com/BlazingSystems/BlazingSystems-Projects
+## Validation Levels
 
-- **Labs** — active development and source-ready work still requiring validation  
-  https://github.com/BlazingSystems/BlazingSystems-Labs
-
-- **Experiments** — prototypes, compatibility work, reverse engineering and exploratory builds  
-  https://github.com/BlazingSystems/BlazingSystems-Experiments
-
-- **Archives** — superseded, incomplete, failed, historical and unrecovered-project resolution records  
-  https://github.com/BlazingSystems/BlazingSystems-Archives
+**Working build** — usable in its intended demonstration environment.  
+**Source-ready** — coherent source is available; target hardware/platform validation remains.  
+**Lab** — active implementation with specific unresolved validation tasks.  
+**Experiment** — technical feasibility or compatibility study; not represented as a finished product.  
+**Archive** — historical engineering notes only.
 
 ---
 
-## Projects — Canonical / Usable
+## Projects
 
-### Vessel LogBook
+### Marine Operations Logbook
+**Area:** Offline web application  
+**Status:** Demonstration build  
+**Repository:** `BlazingSystems-Projects/marine/vessel-logbook/`
 
-**Status:** FINAL / USABLE  
-**Location:** `BlazingSystems-Projects/marine/vessel-logbook/`  
-**Canonical recovered build:** V10.4 Audio + Haptic Final
+Generic offline operations logbook demonstrating local job setup, progress tracking, event timelines, lightweight calculation support and browser-local persistence. Public examples use fictional data only.
 
-The V10.4 branch supersedes the earlier V8/V9/V10/V10.1–V10.3 branches as the public canonical build. V8, V9 and V10 are preserved as sanitized historical milestones; the incomplete V10.3 archive placeholder was deliberately removed.
+### Draft Reading Trainer
+**Area:** Browser training application  
+**Status:** Working build  
+**Repository:** `BlazingSystems-Projects/marine/draftsight-trainer/`
 
-### DraftSight Trainer
+Interactive visual-reading exercise for simulated vessel draft marks. The public edition is generic and independent of any company form or proprietary training system.
 
-**Status:** FINAL / AUDITED  
-**Location:** `BlazingSystems-Projects/marine/draftsight-trainer/`  
-**Canonical recovered build:** V5 Final Audited
+### Daily Operations Update
+**Area:** Offline reporting tool  
+**Status:** Demonstration build  
+**Repository:** `BlazingSystems-Projects/marine/vessel-daily-updates/`
 
-Older V2/V3/V4 milestones are preserved in Archives.
-
-### Vessel Daily Updates
-
-**Status:** USABLE  
-**Location:** `BlazingSystems-Projects/marine/vessel-daily-updates/`
-
-Standalone lightweight daily-update tool recovered and published separately from the larger Vessel LogBook.
+Single-page reporting demonstration for previous, current, to-date and balance figures using synthetic records.
 
 ### BlazeSystems Arcade
+**Area:** Browser interface / game study  
+**Status:** Demonstration build  
+**Repository:** `BlazingSystems-Projects/games/blazesystems-arcade/`
 
-**Status:** USABLE / PORTABLE HYBRID  
-**Location:** `BlazingSystems-Projects/games/blazesystems-arcade/`
-
-The Portable Hybrid build is the current canonical branch. Selected Friv/SNES/MULTIEMU milestones are preserved in Archives.
+Portable browser arcade/launcher study. The public edition uses an original mini-game and excludes commercial ROMs, BIOS files, copied game assets and third-party emulator payloads.
 
 ### Last Stand
+**Area:** HTML5 game  
+**Status:** Working build  
+**Repository:** `BlazingSystems-Projects/games/last-stand/`
 
-**Status:** USABLE HTML5 BUILD  
-**Location:** `BlazingSystems-Projects/games/last-stand/`
-
-Lightweight browser strategy/endless-mode game recovered as an actual runnable HTML5 build.
+Dependency-free endless defense/strategy game designed for direct browser execution.
 
 ### ESP8266 Thermostat
+**Area:** Embedded systems  
+**Status:** Source-ready; hardware validation required  
+**Repository:** `BlazingSystems-Projects/embedded/esp8266-thermostat/`
 
-**Status:** SOURCE READY / HARDWARE VALIDATION REQUIRED  
-**Location:** `BlazingSystems-Projects/embedded/esp8266-thermostat/`
+Standalone ESP8266 thermostat with DS18B20 sensing, relay output, local web interface, hysteresis control, anti-short-cycle timing and persistent settings.
 
-Complete standalone AP thermostat source with persistent settings, DS18B20 support, relay control, hysteresis and anti-short-cycle logic. Exact board/wiring validation remains deployment-specific.
+### Captive Portal UI Demo
+**Area:** Networking UI  
+**Status:** Demonstration build  
+**Repository:** `BlazingSystems-Projects/networking/captive-portal-ui-demo/`
 
-### LPB Neon Aero Portal
-
-**Status:** WORKING SOURCE / TARGET-INTEGRATION REQUIRED  
-**Location:** `BlazingSystems-Projects/networking/lpb-neon-aero-portal/`
-
-Latest recovered v1.2 multi-coinslot branch. Live behavior still depends on the target LPB PisoWiFi server endpoints and captive-browser environment.
+Generic captive-portal interface study with plan selection, voucher input and session controls. The public demo is detached from production hotspot endpoints.
 
 ---
 
-## Labs — Active / Source-Ready
+## Labs
 
 ### Blaze Pisonet Universal
-
-**Status:** ACTIVE / SOURCE-ONLY  
-**Location:** `BlazingSystems-Labs/embedded/blaze-pisonet-universal/`
-
-Latest recovered Pisonet firmware branch. It supersedes the older Embedded Audio / GPIO14 / boot-fix generations as the active codebase.
-
-Still required before promotion:
-- exact-board compile
-- hardware GPIO verification
-- relay fail-safe testing
-- coin-noise/bounce testing
-- persistence/power-loss testing
-- AP/STA validation
-- long-duration timer-drift test
-- real multi-unit/master-slave validation
+ESP8266 timer/coin-control architecture with standalone and multi-unit concepts. Promotion requires exact-board compile, GPIO verification, persistence testing, failure recovery and multi-device validation.
 
 ### BlazeFM
-
-**Status:** ACTIVE / SOURCE TREE RECOVERED  
-**Location:** `BlazingSystems-Labs/android/blazefm/`
-
-Recovered Android/Gradle project includes MainActivity, FileEngine, BlazeProvider, manifest, resources and build files. The source tree has been reconstructed from the real recovered package rather than from memory.
-
-Still required:
-- Android Studio/Gradle build validation
-- modern storage-permission testing
-- duplicate-finder stress testing
-- lint/crash audit
-- signed release packaging
+Lightweight Android file-manager project with duplicate and image-similarity tooling. Remaining work includes full Gradle/device validation, modern storage-permission regression testing and signed release packaging.
 
 ### MachDownload
+Segmented HTTP/HTTPS downloader. Python syntax and local range-download integrity tests pass; wider Windows/CDN/proxy/authentication validation remains.
 
-**Status:** WORKING ALPHA / SOURCE TREE  
-**Location:** `BlazingSystems-Labs/software/machdownload/`
+### Local AI Studio
+Local HTTP-based image/utility engine with optional model adapters. Core server validation is separate from model/runtime performance validation.
 
-Recovered segmented HTTP/HTTPS downloader project with local build scripts. Broader protocol/auth/proxy/browser-integration and resilient-resume testing remain future work.
-
-### Loumer Local AI Studio
-
-**Status:** ENGINE / LAB  
-**Location:** `BlazingSystems-Labs/ai/local-ai-studio/`
-
-Recovered local-AI engine/web UI work for low-resource machines. Model/runtime compatibility remains external to the core project.
-
-### Ruijie EW1200G OpenWrt VLAN Deployment
-
-**Status:** DEPLOYMENT LAB / SANITIZED RECORD  
-**Location:** `BlazingSystems-Labs/networking/ruijie-ew1200g-openwrt/`
-
-Raw OpenWrt backup archives are intentionally **not public** because recovered backups contain device-specific credentials and private host/server keys. The public repository contains the sanitized deployment record and resolution path instead.
+### OpenWrt VLAN Deployment Study
+Sanitized networking study covering VLAN and management design. Raw device backups, private keys and deployment credentials are intentionally excluded.
 
 ---
 
 ## Experiments
 
 ### BlazeAPK
-
-**Status:** EXPERIMENTAL / BETA  
-**Location:** `BlazingSystems-Experiments/web/blazeapk/`
-
-Canonical active build is Beta 0.5. Alpha 0.1–0.3 milestones are preserved in Archives. Not presented as a general Android runtime replacement.
+Browser-based APK/DEX parsing and Android-API compatibility research. It is not presented as a replacement for Android Runtime/ART.
 
 ### BlazeJ2ME
-
-**Status:** EXPERIMENTAL / BETA  
-**Location:** `BlazingSystems-Experiments/web/blazej2me/`
-
-Offline single-file Java ME/JAR/JAD emulation experiment. Compatibility varies by application/runtime.
+Single-file Java ME/JAR/JAD runtime experiment for compatibility research.
 
 ### TokenLauncher
+Android + ESP32 local token/device-control prototype. Security assumptions and unresolved kiosk/device-owner requirements are documented in the project.
 
-**Status:** SECURITY / DEVICE-CONTROL PROTOTYPE  
-**Location:** `BlazingSystems-Experiments/android/token-launcher/`
-
-Recovered Android + ESP32 prototype with subsequent security/integration patches and a documented resolution.
-
-### ESP8266 AP LED Controller
-
-**Status:** PROTOTYPE / SOURCE  
-**Location:** `BlazingSystems-Experiments/embedded/esp8266-ap-led-controller/`
-
-### ESP8266 Relay Controller
-
-**Status:** PROTOTYPE / SOURCE  
-**Location:** `BlazingSystems-Experiments/embedded/esp8266-relay-controller/`
+### ESP8266 AP LED / Relay Controllers
+Standalone access-point control experiments exploring lightweight embedded web interfaces.
 
 ---
 
-## Archives — Preserved History
+## Archived Engineering Topics
 
-### Vessel LogBook History
+Sanitized historical notes and completion plans cover earlier work such as:
 
-Selected V8, V9 and V10 milestones are preserved under:
+- five-sided ESP32 LED cube;
+- ESP32 I2S noise-threshold controller;
+- ESP8266 relay music sequencer;
+- multi-node weather/flood monitoring thesis;
+- MaSiCA machine-fault analyzer concept;
+- OpenWrtFi architecture;
+- Huawei HG8145v5 firmware/OpenWrt research;
+- ESP8266 TOTP/2FA project;
+- Dell Wyse 5070 homelab;
+- older Pisonet/controller branches;
+- motorcycle ESP32/LVGL HUD concept.
 
-`BlazingSystems-Archives/marine/vessel-logbook-history/`
+The public archive intentionally does **not** store raw employer/customer-era files, credentials, private network backups, proprietary forms, or confidential datasets.
 
-### DraftSight Trainer History
+## Publication Standard
 
-Selected V2/V3/V4 milestones are preserved under:
+Public project pages should contain:
 
-`BlazingSystems-Archives/marine/draftsight-trainer-history/`
+1. purpose and scope;
+2. current validation status;
+3. requirements or target environment;
+4. known limitations;
+5. public-safe sample data;
+6. preview/demo entry point where practical;
+7. no confidential records, credentials or proprietary operational templates.
 
-### Blaze Pisonet Timer History
-
-Embedded Audio V2, GPIO14 Final, GPIO14 Bootfix and audit documentation are preserved under:
-
-`BlazingSystems-Archives/embedded/blaze-pisonet-timer-history/`
-
-### BlazeAPK / BlazeJ2ME Alpha History
-
-Superseded browser-runtime milestones are preserved under:
-
-`BlazingSystems-Archives/web-runtime-history/`
-
-### Friv / Arcade History
-
-Selected early fixed, SNES-playable and MULTIEMU milestones are preserved under:
-
-`BlazingSystems-Archives/games/friv-arcade-history/`
-
----
-
-## Unrecovered / Resolution-Only Projects
-
-The following projects have meaningful historical design or partial-work records but no trustworthy final source artifact was recovered from the available Library. They are documented with recovery/completion resolutions rather than fabricated replacement code:
-
-- ESP32 / WS2812 five-sided LED Cube
-- ESP32 I2S noise-threshold penalty controller
-- ESP8266 relay music sequencer
-- multi-node weather/flood thesis system
-- MaSiCA machine-fault analyzer
-- OpenWrtFi
-- Huawei HG8145v5 OpenWrt reverse-engineering/recovery
-- ESP8266 TOTP / 2FA project
-- Dell Wyse 5070 homelab work
-- ESP8266 remote LAN access/tunnel gateway
-- older coin-operated water-vending controller
-- older Arduino Mega centralized Pisonet controller
-- motorcycle ESP32/LVGL HUD concept
-
-Resolution records live in:
-
-`BlazingSystems-Archives/resolutions/`
-
-If an original file is later recovered, it should be preserved unchanged in Archives first, audited, then resumed from a cleaned copy in Labs.
-
----
-
-## Intentionally Excluded From Public GitHub
-
-The migration does **not** publish:
-
-- debt dashboards or debt-recovery calendars
-- private financial/account information
-- personal health/family material
-- credentials/tokens/passwords
-- private router/host keys
-- raw OpenWrt backups containing secrets
-- employer-confidential operational records
-- unrelated personal media
-
----
-
-## Migration / Audit Rules
-
-1. Recover real artifacts before documenting releases.
-2. Never replace a newer working build with an older file just because the older filename sounds more final.
-3. Preserve meaningful prior versions as history.
-4. Keep unrelated projects isolated.
-5. Do not reconstruct missing historical source and present it as original.
-6. Source-only embedded firmware must not be labeled production-ready without compile/hardware validation.
-7. Experimental reverse-engineering work must be labeled clearly.
-8. Every active project should have a README with status, purpose, requirements, limitations and validation notes.
-9. Public archives must be sanitized for secrets and private data.
-10. Failed or superseded work is preserved when it has engineering value instead of being silently erased.
-
-The migration is intentionally conservative: **recoverability, provenance and accuracy matter more than repository count.**
+The portfolio is maintained as a technical engineering record rather than a raw development backup.
