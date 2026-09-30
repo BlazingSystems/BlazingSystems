@@ -91,6 +91,20 @@ Local HTTP-based image/utility engine with optional model adapters. Core server 
 ### OpenWrt VLAN Deployment Study
 Sanitized networking study covering VLAN and management design. Raw device backups, private keys and deployment credentials are intentionally excluded.
 
+### ESPHole
+**Area:** ESP8266 networking / DNS filtering  
+**Status:** Lab / source-ready  
+**Repository:** `BlazingSystems-Labs/networking/esphole/`
+
+Independent ESP8266 DNS-sinkhole and NAPT-repeater study. The public edition generates and persists unique first-boot AP/admin credentials. Exact-board compile, DNS/NAPT behavior and multi-client hardware validation remain.
+
+### BlazeTube ESP8266
+**Area:** ESP8266 networking / shared browser sessions  
+**Status:** Lab / source-ready  
+**Repository:** `BlazingSystems-Labs/networking/blazetube-esp8266/`
+
+Shared browser-session coordinator and NAPT-repeater experiment using a user-supplied YouTube Data API key and official embedded playback in client browsers. No API credential is bundled. Compile, service-integration and hardware validation remain.
+
 ---
 
 ## Experiments
@@ -101,7 +115,9 @@ Sanitized networking study covering VLAN and management design. Raw device backu
 Browser-based APK/DEX parsing and Android-API compatibility research. The runnable public artifact is Beta 0.6; recovered Beta 0.7 material is design/implementation planning only and is not represented as a completed release. It is not presented as a replacement for Android Runtime/ART.
 
 ### BlazeJ2ME
-Single-file Java ME/JAR/JAD runtime experiment for compatibility research.
+**Current public build:** v1.6 universal compatibility fix
+
+Single-file Java ME/JAR/JAD runtime experiment for compatibility research. The v1.6 artifact is the newest runnable build recovered so far; its JavaScript passes parser validation and it bundles no commercial JAR/JAD content.
 
 ### TokenLauncher
 Android + ESP32 local token/device-control prototype. Security assumptions and unresolved kiosk/device-owner requirements are documented in the project.
