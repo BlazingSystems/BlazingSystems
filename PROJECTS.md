@@ -132,6 +132,13 @@ Android + ESP32 local token/device-control prototype. Security assumptions and u
 ### ESP8266 AP LED / Relay Controllers
 Standalone access-point control experiments exploring lightweight embedded web interfaces.
 
+### ESP8266 Arcade — Public-Safe Shell
+**Area:** ESP8266 captive portal / networking  
+**Status:** Experiment / recovered-design derivative  
+**Repository:** `BlazingSystems-Experiments/embedded/esp8266-arcade-public/`
+
+Publication-safe reconstruction of a recovered ESP8266 arcade architecture. The public source keeps captive DNS, a local web interface, generated AP credentials and optional NAPT support, but replaces the recovered emulator/ROM workflow with an original dependency-free mini-game. The raw recovered firmware remains outside public GitHub because its embedded portal included third-party runtime references and ROM-library behavior.
+
 ---
 
 ## Archived Engineering Topics
