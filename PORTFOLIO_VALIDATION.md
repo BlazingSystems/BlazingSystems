@@ -31,7 +31,7 @@ Public repositories contain sanitized demonstrations, source-ready projects, exp
 
 ## Experiments
 
-BlazeAPK Beta 0.6, BlazeJ2ME v1.6, TokenLauncher, and the ESP8266 controller studies remain experimental. BlazeAPK 0.6 and BlazeJ2ME v1.6 pass JavaScript parser validation; broader runtime compatibility testing remains. None is represented as production-ready software.
+BlazeAPK Beta 0.6, BlazeJ2ME v1.6, TokenLauncher, the ESP8266 controller studies, and the public-safe ESP8266 Arcade shell remain experimental. BlazeAPK 0.6 and BlazeJ2ME v1.6 pass JavaScript parser validation; broader runtime compatibility testing remains. None is represented as production-ready software. The ESP8266 Arcade shell keeps only captive-portal/NAPT architecture and an original mini-game; its recovered third-party emulator/ROM workflow is not redistributed.
 
 ## Publication Boundary
 
