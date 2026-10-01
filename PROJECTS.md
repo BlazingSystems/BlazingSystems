@@ -84,7 +84,7 @@ ESP8266 timer/coin-control architecture with standalone and multi-unit concepts.
 **Status:** Lab / recovered derivative  
 **Repository:** `BlazingSystems-Labs/embedded/blaze-pisonet-timer-public/`
 
-Publication-safe derivative reconstructed from a recovered private timer branch. The public source removes the embedded MP3 payload and replaces the historical reusable AP password with a `CHANGE_ME` placeholder while preserving the core coin-input, dual-relay, TM1637 display, local web configuration, persistence, sales-counter, and warning workflow. The original recovered source/audio remain outside public GitHub. Exact-board compile and hardware validation remain.
+Publication-safe derivative reconstructed from an earlier timer branch. The public source removes the embedded MP3 payload and uses a generated first-boot setup value while preserving the core coin-input, dual-relay, TM1637 display, local web configuration, persistence, sales-counter, and warning workflow. Historical source/audio remain outside public GitHub. Exact-board compile and hardware validation remain.
 
 ### BlazeFM
 Lightweight Android file-manager project with duplicate and image-similarity tooling. Remaining work includes full Gradle/device validation, modern storage-permission regression testing and signed release packaging.
