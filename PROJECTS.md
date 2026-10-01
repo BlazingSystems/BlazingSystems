@@ -79,6 +79,13 @@ Generic captive-portal interface study with plan selection, voucher input and se
 ### Blaze Pisonet Universal
 ESP8266 timer/coin-control architecture with standalone and multi-unit concepts. Promotion requires exact-board compile, GPIO verification, persistence testing, failure recovery and multi-device validation.
 
+### Blaze Pisonet Timer — Public-Safe Continuation
+**Area:** ESP8266 timer / relay control  
+**Status:** Lab / source-ready  
+**Repository:** `BlazingSystems-Labs/embedded/blaze-pisonet-timer-public/`
+
+Publication-safe continuation of an earlier private timer branch. The public source removes embedded media payloads and the historical reusable AP password, generates per-device credentials, and keeps the core coin-input, dual-relay, TM1637 display, local web configuration, persistence, and tone-alert workflow. Exact-board compile and hardware validation remain.
+
 ### BlazeFM
 Lightweight Android file-manager project with duplicate and image-similarity tooling. Remaining work includes full Gradle/device validation, modern storage-permission regression testing and signed release packaging.
 
