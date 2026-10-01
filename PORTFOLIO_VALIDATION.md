@@ -21,7 +21,7 @@ Public repositories contain sanitized demonstrations, source-ready projects, exp
 | Project | Public status | Remaining validation |
 |---|---|---|
 | Blaze Pisonet Universal | Lab / source-ready | ESP8266 compile, GPIO behavior, persistence, recovery, and multi-device hardware tests |
-| Blaze Pisonet Timer | Lab / source-ready | Public credential/media sanitization complete; ESP8266 compile, relay/coin/display behavior, persistence and hardware endurance tests remain |
+| Blaze Pisonet Timer | Lab / recovered derivative | Complete recovered source structure is published with a placeholder credential and empty audio arrays; ESP8266 compile, relay/coin/display behavior, persistence and hardware endurance tests remain |
 | BlazeFM | Lab / source-ready | Gradle build, Android storage-permission regression tests, device validation, signed packaging |
 | MachDownload | Lab / working alpha | Wider Windows, CDN, proxy, authentication, and release-build testing |
 | Local AI Studio | Lab / engine prototype | Model-dependent generation and performance testing with user-supplied model weights |
